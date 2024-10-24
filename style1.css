@@ -51,6 +51,7 @@ button.red{
     color: white;
     padding: 15px 32px;
     margin: 6px;
+    margin-right: 60px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -79,21 +80,29 @@ h1{
     background:#e81a4b;
 }
 
-ul{
-    list-style-type:circle;
+.categories{
+    display: flex;
+    justify-content: space-around;
 }
 
-.zbr{
-    list-style: none;
-    border-left: 10px solid #e81a4b;
-    padding: 0;
+.card{
+    border: 3px solid black;
+    border-radius: 10px;
+    transition-duration: 0.3s;
 }
 
-.zbr li{
-    padding: 10px;
+.card:hover{
+    border: 3px solid #e81a4b; 
 }
-.zbr li:nth-child(odd) {background: #f2f2f2;}
-.zbr li:nth-child(even) {background: white;}
+
+.picture{
+   padding: 15px; 
+}
+
+.productname{
+    text-align: center;
+    border-top: 2px solid rgb(147, 147, 147);
+}
 
 
 .prdct{
