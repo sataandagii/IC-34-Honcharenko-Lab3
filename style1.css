@@ -7,15 +7,37 @@ header{
     height: 130px;  
     display: flex; 
     align-items: center;
+}
 
-    img{
-        padding-left: 10px;
-        margin-right: 10px;
-    }
+header img{
+    padding-left: 10px;
+    margin-right: 10px;
 }
 
 header button{
     font-family:system-ui;
+}
+
+.hdr{
+    border: 2px solid white;
+
+}
+
+.hdr button{
+    font-size:14px;
+    float: left;
+    background-color: #4A505E; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.hdr button:hover{
+    background-color: white;
+    color: #4A505E;
 }
 
 button.red{
@@ -45,28 +67,6 @@ button.red{
 
 .fa-solid:hover {
     animation: fa-bounce 1s infinite;
-}
-
-#hdr{
-    border: 2px solid white;
-
-}
-
-#hdr button{
-    font-size:14px;
-    float: left;
-    background-color: #4A505E; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-#hdr button:hover{
-    background-color: white;
-    color: #4A505E;
 }
 
 h1{
