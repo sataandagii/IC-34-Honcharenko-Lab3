@@ -19,8 +19,8 @@ header button{
 }
 
 .hdr{
+    display: flex;
     border: 2px solid white;
-
 }
 
 .hdr button{
@@ -39,6 +39,10 @@ header button{
     background-color: white;
     color: #4A505E;
 }
+
+.red{
+    display: flex;
+    }
 
 button.red{
     font-size:large;
